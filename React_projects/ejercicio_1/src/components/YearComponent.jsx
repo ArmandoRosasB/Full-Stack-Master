@@ -31,7 +31,7 @@ export const YearComponent = ({year}) => {
   return (
     <div>
         <h2>Year</h2>
-        <p>  <strong className='label-green'>{curr_year}</strong></p>
+        <p>  <strong className='label label-green'>{curr_year}</strong></p>
         <div className="buttons">
             <button onClick={e => minusOne(e)}> Past Year</button>
             &nbsp;
