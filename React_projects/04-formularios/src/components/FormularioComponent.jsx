@@ -24,7 +24,6 @@ export const FormularioComponent = () => {
 
     const cambiarDatos = (e) => {
         let name_input = e.target.name;
-        let usuario_modificar = usuario;
 
         // usuario_modificar[name_input] = e.target.value;
 
